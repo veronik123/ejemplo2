@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Definiendo una tabla HTML</title>
+    <Style>
+    Table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse
+    }
+    th, td {
+        padding: 5px;
+        text-align: left;
+    }</Style>
+</head>
+<body>
+   <h2>Celdas que abarcan dos o más columnas.</h2> 
+   <p>para hacer que una celda abaarque más de una columna, use el atributo colspan.</p>
+<table style="width: 100%">
+<tr>
+     <th>Nombre</th>
+     <th colspan="2">Telefono</th>
+     <tr>
+     <tr>
+          <td>Nombre</td>
+          <td>55577854</td>
+          <td>55577855</td>
+      </tr>
+</table>
+<br>
+<br>
+<br>
+
+<table style="width: 90%">
+<tr>
+   <td>Nombre </td>
+   <td colspan="2"> </td>
+   <td>apellido </td>
+   <td colspan="2" > </td>
+   
+<tr>
+    <td>Cedula </td>
+    <td colspan="2"> </td>
+    <td> Nacionalida</td>
+    <td colspan="2"> </td>
+</tr> 
+<tr>
+    <td>Sexo </td>
+    <td> </td>
+    <td>Estado Civil</td>
+    <td> </td>
+    <td>Edad </td>
+    <td> </td>
+</tr>
+<tr>
+    <td>Dirección exacta </td>
+    <td colspan="5"> </td>
+    
+</tr>    
+<tr>
+    
+    <td colspan="3" rowspan="6" > </td>
+    <td colspan="3">Estudios realizados </td>
+</tr>
+<tr>
+    <td>Estudios </td>
+    <td colspan="">Si</td>
+    <td colspan="">No </td>
+</tr>
+<tr>
+
+    <td>Primaria </td>
+    <td colspan=""> </td>
+    <td colspan=""> </td>
+</tr>
+<tr>
+    
+    <td>Secundaria </td>
+    <td colspan=""> </td>
+    <td colspan=""> </td>
+</tr>
+<tr>
+
+    <td>Universidad </td>
+    <td colspan=""> </td>
+    <td colspan=""> </td>
+</tr>
+<tr>
+    <td>Tecnico </td>
+    <td colspan=""> </td>
+    <td colspan=""> </td>
+</tr>
+<tr>
+    <td>Nombre de quien lo aplica </td>
+    
+    <td colspan="5"> </td>
+</tr>
+<tr><td>fecha de aplicación </td>
+    <td> </td>
+    <td>Lugar de la materia </td>
+    <td colspan="3"></td>
+</tr>
+
+</table>
+</body>
+</html>
